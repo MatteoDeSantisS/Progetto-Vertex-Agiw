@@ -12,7 +12,7 @@ coeff_b = my_utils.pick_random_coeffs(10)
 def ground_truth_data(dir_name: str):
     cwd = os.getcwd()+"\\Files"
     if not os.path.isdir(cwd):
-          os.makedirs(mypath)
+          os.makedirs(cwd)
     
     name_dataset=os.path.basename(os.path.dirname(dir_name))
     ground_truth = []
